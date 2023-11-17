@@ -287,6 +287,38 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p></p>
 <p><!-- 程式執行 ouput 區 --></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
+<h1>待辦事項</h1>
+<h2>replit前置作業</h2>
+<div class="line number1 index0 alt2"><span><code class="js plain">mkdir cad2023<br/></code></span></div>
+<div class="line number1 index0 alt2"><span><code class="js plain">cd cad2023</code></span></div>
+<div class="line number2 index1 alt1"><span><code class="js plain">git init</code></span></div>
+<div class="line number2 index1 alt1"><code class="js plain">利用 SciTE 建立 README.md 檔案, 放入後續在 Replit 會需要的 git submodule update 以及 pip install 指令</code></div>
+<div class="line number3 index2 alt2"><span><code class="js plain">git add README.md</code></span></div>
+<div class="line number4 index3 alt1"><span><code class="js plain">git commit -m<span> </span></code><code class="js string">"add README.md"</code></span></div>
+<div class="line number4 index3 alt1"><code class="js string">利用下列指令將 cmsimde 倉儲設定為本倉儲的子模組且放入 cmsimde 目錄中</code></div>
+<div class="line number5 index4 alt2"><span><code class="js plain">git submodule add https:</code><code class="js comments">//github.com/mdecycu/cmsimde.git cmsimde</code></span></div>
+<div class="line number7 index6 alt2"><code class="js plain">將 cmsimde 目錄中的 up_dir 內容複製到倉儲根目錄</code></div>
+<div class="line number7 index6 alt2"><code class="js plain">納入所有變更的內容</code></div>
+<div class="line number9 index8 alt2"><span><code class="js plain">git add .</code></span></div>
+<div class="line number11 index10 alt2"><span><code class="js plain">git commit -m<span> </span></code><code class="js string">"add cmsimde as submodule"</code></span></div>
+<div class="line number11 index10 alt2"><code class="js string">建立 main 分支, 且設為主分支</code></div>
+<div class="line number13 index12 alt2"><span><code class="js plain">git branch -M main</code></span></div>
+<div class="line number15 index14 alt2"><code class="js plain">設定 putty session 名稱為 github.com, 且能以 SSH 連線至 github.com 主機</code></div>
+<div class="line number17 index16 alt2"><span><code class="js plain">git remote add origin git@github.com:scrum-1/cad2023.git</code></span></div>
+<div class="line number18 index17 alt1"><span><code class="js plain">git push -u origin main</code></span></div>
+<div class="line number18 index17 alt1"><span><code class="js plain"></code></span></div>
+<div class="line number18 index17 alt1"><code class="js plain">過程中若出現 git 從 github.com 連線時產生 Error, 則可能是因為 Windows SChannel API 取用沒有設定對應 key 資料, 此時可以設法使用 OpenSSL 進行連線 handshake, 而不使用 SChannel API 進行認證.</code></div>
+<div class="line number18 index17 alt1">
+<h2>維護 cad2023 倉儲與網站</h2>
+Replit + Github(目前使用)</div>
+<div class="line number18 index17 alt1">可攜環境 + Github</div>
+<div class="line number18 index17 alt1">自架伺服器 + Github</div>
+<div class="line number18 index17 alt1"><span></span></div>
+<h2 class="line number18 index17 alt1"><span>w8在幹嘛 </span></h2>
+<div class="line number18 index17 alt1"><span>1) </span><span>如何遠端登入</span><span>、2 )<span> </span></span><span>如何取放檔案</span><span>、3)<span> </span></span><span>如何與 github 帳號彼此信任</span><span>、4)<span> </span></span><span>如何取下 cad2023</span><span>、5)<span> </span></span><span>如何啟動或關閉 cad2023 倉儲</span><span>、6)<span> </span></span><span>如何連結到動態網站</span><span>、7)<span> </span></span><span>如何設定靜態網站</span><span>、8)<span> </span></span><span>如何連動動態網站改版與靜態網頁</span><span>、9)<span> </span></span><span>如何對資料進行保全</span><span>以及 10)<span> </span></span><span>網路連線協定</span><span>等相關議題</span></div>
+<div class="line number18 index17 alt1">
+<div></div>
+</div>
 <h1 style="width: 100%; height: 100%;">任務一</h1>
 <h2>繪圖過程</h2>
 <p>利用Inventor繪製個零件，最後組裝。</p>
