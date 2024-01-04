@@ -110,14 +110,16 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 <h1>HW</h1>
 <h2>Replit</h2>
 <p>在mde.tw裡面的w4-5中影片提到關於前置作業設定，前置作業做好之後就可以到replit按下RUN，就會跑出自己倉儲的頁面，可以進行編輯。編輯完之後按下covert轉成靜態，接著回去replit找到commit，輸入自己想要的更新標題之後，再按下push，到github確認有更新之後，到setting的pages打開網頁，確認全部都已經更新完成。</p>
+<p>考量到replit在2023年底可能會不給使用。一律改為用s1511進行更新。</p>
+<p>連動s1511伺服器進行更新之後，即無法利用replit進行更新，個人猜想原因為近端跟遠端不同步。(replit會要求同步，但輸入之後出現問題)</p>
+<p><img alt="" height="425" src="/images/cadnote - Google Chrome 2023_12_29 下午 12_48_46.png" width="800"/></p>
 <h2>s1511</h2>
 <p>1202更新 成功利用ssh進入s1511</p>
 <p>進入步驟，要先把w8的前三篇影片看完做前置作業。要先開啟sftp連接到s1511得伺服其中，開啟ssh登入之後，切換到cad2023，輸入python3 server.py按下enter執行，就可以到google輸入s1511.cycu.org:外部阜號，開啟連結網站了。</p>
 <p>設定config的email以及username之後進行git pull整合近端跟遠端的資料一致，再push上去到github確認更新成功。建立public_html資料夾在cad41123124裡面，接著克隆，可以連結"s1511.cycu.org/~cad41123124"的網頁。</p>
 <p>在cad41123124中的cad2023設置好acp的設定之後，就可以在動態網站中進行轉靜態acp的動作，acp成功之後也可以在確認github進行更新。</p>
-<p>利用s1511端進行更新測試(因replit無法commit推送)，可能原因為近端跟遠端不同步。</p>
+<p>利用s1511端進行更新測試。(因replit無法commit推送)</p>
 <h2>localhost</h2>
-<p>研究中...</p>
 <h2>斜坡球</h2>
 <p>關於斜坡的一些操作筆記，導入斜坡範例的stl檔到CoppeliaSim中，右鍵選擇add&gt;proximity sensor&gt;ray type來加入位於斜坡中央的感測器。依照影片的步驟完成設定。</p>
 <p><img alt="" height="314" src="/images/CoppeliaSim Edu - triangle_perpetual_motion_simulator - rendering_ 4 ms (8.06 fps) - SIMULATION STOPPED 2023_12_22 下午 02_28_27.png" width="610"/></p>
@@ -127,11 +129,6 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 <p><img alt="" height="425" src="/images/Autodesk Inventor Professional 2020 2023_12_29 下午 12_34_07.png" width="800"/></p>
 <p>球</p>
 <p><img alt="" height="425" src="/images/Windows (Y_) 2023_12_29 下午 12_44_10.png" width="800"/></p>
-<h1>小組安排</h1>
-<h2>小組作業進度</h2>
-<p>更新小組的名單及作業分配位置，通知組員完成該完成的作業。</p>
-<p>關於如何建立網站或是推送、零件繪製等皆放置在小組的網站。</p>
-<p><a href="https://cad2023ag2.joe012299.repl.co/">https://cad2023ag2.joe012299.repl.co/</a></p>
 <h2>Replit前置作業</h2>
 <div class="line number1 index0 alt2"><span><code class="js plain">mkdir cad2023<br/></code></span></div>
 <div class="line number1 index0 alt2"><span><code class="js plain">cd cad2023</code></span></div>
@@ -176,6 +173,11 @@ Replit + Github(目前使用)</div>
 <h2>模擬結果</h2>
 <p><a href="https://drive.google.com/drive/folders/1zKrGys9ZxbIclOJIXhJ7sJ8R809T6ghI?usp=drive_link">https://drive.google.com/drive/folders/1zKrGys9ZxbIclOJIXhJ7sJ8R809T6ghI?usp=drive_link</a></p>
 <h2>課程結論</h2>
+<h1>小組安排</h1>
+<h2>小組作業進度</h2>
+<p>更新小組的名單及作業分配位置，通知組員完成該完成的作業。</p>
+<p>關於如何建立網站或是推送、零件繪製等皆放置在小組的網站。</p>
+<p><a href="https://cad2023ag2.joe012299.repl.co/">https://cad2023ag2.joe012299.repl.co/</a></p>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
